@@ -845,11 +845,20 @@ input, select, textarea {
 
 	}
 
-	@media (max-width: 600px) {
-		navbar {
-			transform: translateY(-100%);
-		}
-	}
+	  @media (max-width: 768px) {
+            .navbar {
+                width: 100%;
+                height: 80px; /* Adjust as needed */
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                transition: transform 0.5s ease-in-out;
+            }
+        }
+
 
 	.navbar li {position: sticky;
 				list-style-type: none;
