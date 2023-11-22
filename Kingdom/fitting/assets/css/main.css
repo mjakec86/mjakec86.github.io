@@ -3413,7 +3413,6 @@ input, select, textarea {
 			-webkit-flex-basis: auto;
 			-ms-flex-basis: auto;
 			flex-basis: auto;
-			height: 18rem;
 			margin-left: 0px;
 		}
 
@@ -3741,6 +3740,7 @@ input, select, textarea {
 	@media only screen and (max-width: 600px) {
         .image.filtered.span-5-75.center {
             margin-left: 0;
+            margin-top: 80px;
         }
     }
     .image.filtered.span-5-75.center {margin-left: 48px;}
