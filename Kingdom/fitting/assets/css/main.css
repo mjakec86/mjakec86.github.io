@@ -862,8 +862,9 @@ input, select, textarea {
 
 	.navbar li {position: sticky;
 				list-style-type: none;
-				margin-right: 20px;
-				margin-top: 20px;
+				margin-right: 0px;
+				margin-top: 15px;
+				margin-bottom: 15px;
 
 		color: white;}
 
@@ -902,9 +903,6 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-	.model-body p {background-color: black;
-		padding: 20px;
-		color: black;}
 
 /* Image */
 
@@ -915,7 +913,6 @@ input, select, textarea {
 	}
 
 		.image.filtered:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 			background-size: 128px 128px, auto;
 			pointer-events: none;
 			content: '';
