@@ -902,6 +902,10 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+	.model-body p {background-color: black;
+		padding: 20px;
+		color: black;}
+
 /* Image */
 
 	.image {
