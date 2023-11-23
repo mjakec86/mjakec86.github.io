@@ -2238,8 +2238,8 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #494949 20%, #7C7C7C 60%, #494949);
-				background-size: 128px 128px, auto;
+				background-image: url("../../images/blackfade.jpg"), linear-gradient(45deg, #494949 20%, #7C7C7C 60%, #494949);
+				background-size: 100% 100%, auto;
 			}
 
 			.panel > *.color1 {
@@ -3743,4 +3743,15 @@ input, select, textarea {
             margin-top: 80px;
         }
     }
+
+    @media only screen and (max-width: 600px) {
+        .navbar image {
+            margin-left: 0;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+     @media only screen and (max-width: 600px) {
+        .navbar {
+            height: 100px;}
+
 
