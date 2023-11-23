@@ -2512,7 +2512,7 @@ input, select, textarea {
 
 		.panel .span-5-75 {
 			width: 57.5rem;
-			margin-left: 44px;
+			margin-left: 42px;
 		}
 
 		.panel .span-6 {
@@ -3358,10 +3358,10 @@ input, select, textarea {
 				height: 100%;
 			}
 
-		.span-7 p {color: black;}
-		.span-7 h1 {color: black;}
-		.span-7 h2 {color: black;}
-		.span-7 major {color: black;}
+		.span-7 p {color: white; text-align: righ;}
+		.span-7 h1 {color: whitesmoke; text-align: right;}
+		.span-7 h2 {color: white; text-align:right;}
+		.span-7 major {color: white; text-align: right;}
 
 		.panel.banner.left {
 			-moz-flex-direction: row;
