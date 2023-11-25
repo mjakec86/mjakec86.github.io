@@ -2238,7 +2238,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/TMfade.png"), linear-gradient(45deg, #494949 20%, #7C7C7C 60%, #494949);
+				background-image: url("../../images/TMfade.png");
 				background-size: 100% 100%, auto;
 			}
 
