@@ -2238,7 +2238,7 @@ input, select, textarea {
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/TMfade.png");
+				background-image: url("../../images/tmfade.png");
 				background-size: 100% 100%, auto;
 			}
 
