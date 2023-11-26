@@ -253,7 +253,7 @@ input, select, textarea {
 		body {
 			height: auto;
 			overflow-x: hidden;
-			overflow-y: auto;
+			overflow-y: hidden;
 		}
 
 	}
@@ -3584,7 +3584,7 @@ input, select, textarea {
 
 		#page-wrapper {
 			height: auto;
-			padding: 1rem;
+/*			padding: 1rem;*/
 		}
 
 	}
@@ -3700,7 +3700,7 @@ input, select, textarea {
 			-ms-flex-direction: column;
 			flex-direction: column;
 			height: auto;
-			margin: 0 0 5rem 0;
+/*			margin: 0 0 5rem 0;*/
 			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
 		}
 
@@ -3727,6 +3727,7 @@ input, select, textarea {
 
 		#wrapper {
 			box-shadow: none;
+			margin-left: -10px;
 		}
 
 			body.is-preload #wrapper {
@@ -3780,6 +3781,10 @@ input, select, textarea {
     @media (min-width: 768px) {
     	.nav-link {display: none!important;}
     }
+@media only screen and (max-width: 480px) {
+        .wrapper {
+            margin-left: -10px;}
 
+            }
 
 
