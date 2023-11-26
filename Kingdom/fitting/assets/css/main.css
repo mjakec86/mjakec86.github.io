@@ -3785,6 +3785,6 @@ input, select, textarea {
 @media only screen and (max-width: 480px) {
 		.navbar-brand {display: none;}
 	}
-
+.nav-link {font-family: Halvetica; color: white; font-size: 20px;}
 
 
