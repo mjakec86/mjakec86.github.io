@@ -3702,6 +3702,7 @@ input, select, textarea {
 			height: auto;
 /*			margin: 0 0 5rem 0;*/
 			box-shadow: 0 0.25rem 1.5rem 0.25rem rgba(46, 43, 55, 0.5);
+			margin-left: -10px;
 		}
 
 			#wrapper > .scrollZone {
@@ -3741,7 +3742,7 @@ input, select, textarea {
 
 	@media only screen and (max-width: 600px) {
         .image.filtered.span-5-75.center {
-            margin-left: 0;
+            margin-left: 0px;
             margin-top: 95px;
         }
     }
