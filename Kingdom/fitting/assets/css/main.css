@@ -841,7 +841,7 @@ input, select, textarea {
 			height: 100%;
 			display: inline-block;
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-			transition: transform 0.5s ease-in-out;
+/*			transition: transform 0.5s ease-in-out;*/
 
 	}
 
@@ -862,11 +862,11 @@ input, select, textarea {
 
 	.navbar li {position: sticky;
 				list-style-type: none;
-				margin-right: 0px;
+				margin-right: 20px;
 				margin-top: 15px;
 				margin-bottom: 15px;
-
-		color: white;}
+				color: white;
+				text-align: left;}
 
 	.icon {
 		text-decoration: none;
@@ -3635,7 +3635,8 @@ input, select, textarea {
 		}
 
 			#wrapper > .scrollZone.left {
-				left: 0;
+				left: 150px!important;
+				top: 300px;
 			}
 
 			#wrapper > .scrollZone.right {
@@ -3673,11 +3674,11 @@ input, select, textarea {
 				user-select: none;
 			}
 
-			#wrapper.is-dragging * {
+		/*	#wrapper.is-dragging * {
 				cursor: -moz-grab;
 				cursor: -webkit-grab;
 				cursor: -ms-grab;
-				cursor: grab;
+				cursor: grab;*/
 			}
 
 		#wrapper.is-dragged * {
@@ -3756,3 +3757,4 @@ input, select, textarea {
             height: 100px;}
 
 .modal-content {background-color: black;}
+
