@@ -3756,7 +3756,7 @@ input, select, textarea {
      @media only screen and (max-width: 600px) {
         .navbar {
             height: 100px;}
-
+        }
 .modal-content {background-color: black;}
 .navsecond {display: inline-flex;}
 
@@ -3783,9 +3783,8 @@ input, select, textarea {
     	.nav-link {display: none!important;}
     }
 @media only screen and (max-width: 480px) {
-        .wrapper {
-            margin-left: -10px;}
+		.navbar-brand {display: none;}
+	}
 
-            }
 
 
