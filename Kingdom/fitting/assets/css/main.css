@@ -863,7 +863,7 @@ input, select, textarea {
 	.navbar li {position: sticky;
 				list-style-type: none;
 				margin-right: 20px;
-				margin-top: 15px;
+				margin-top: 0px;
 				margin-bottom: 15px;
 				color: white;
 				text-align: left;}
@@ -2458,7 +2458,7 @@ input, select, textarea {
 		}
 
 		.panel .span-2-5 {
-			width: 25rem;
+			width: 60rem;
 		}
 
 		.panel .span-2-75 {
@@ -2466,7 +2466,7 @@ input, select, textarea {
 		}
 
 		.panel .span-3 {
-			width: 30rem;
+			width: 60rem;
 		}
 
 		.panel .span-3-25 {
@@ -3785,5 +3785,12 @@ input, select, textarea {
 @media only screen and (max-width: 480px) {
 		.navbar-brand {display: none;}
 	}
+
+./*image-container {
+    position: relative;
+    display: inline-block;
+    width: 60rem;
+
+}
 
 
