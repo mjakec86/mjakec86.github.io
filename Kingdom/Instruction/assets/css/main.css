@@ -2857,8 +2857,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 1px #e44c65;
-			color: #e44c65 !important;
+			box-shadow: inset 0 0 0 1px #ffffff;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"]:active,
@@ -3136,6 +3136,11 @@ input, select, textarea {
 		}
 
 		.spotlight.right .content {
+			border-left-width: 0.35em;
+			right: 0;
+		}
+
+		.spotlight.big .condent {
 			border-left-width: 0.35em;
 			right: 0;
 		}
@@ -4125,4 +4130,13 @@ input, select, textarea {
 		z-index: 21;
 		filter: brightness(.50);
 
+	#bottom .content p {
+			display: inline-block;
+			margin-right: 1%;
+			max-width: 95%;
+			padding: 6em;
+			position: relative;
+			text-align: right;
+			vertical-align: middle;
+			z-index: 1;
 
