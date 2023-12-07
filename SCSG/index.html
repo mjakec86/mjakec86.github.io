@@ -103,11 +103,45 @@
 							</article>
 
 						<!-- Work -->
-							<article id="work">
+							<!-- <article id="work">
 								<h2 class="major">Sporting Clays</h2>
 								<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/842937537?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="The Sporting Clays Course at Sandy Creek Sporting Grounds"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script><br>
 								<p>Winding through scenic ponds, rolling terrain, forested thickets and a century-old pecan orchard, our sporting clays course presents guests with 20 signature location challenges. Often described as “golf with a shotgun,” sporting clays allow guests to enjoy a broad range of exciting clay movements, each providing distinctive entertainment for shooters of all levels.</p>
+							</article> -->
+
+							<article id="work">
+							    <h2 class="major">Sporting Clays</h2>
+							    <div style="padding:56.25% 0 0 0;position:relative;">
+							        <iframe id="videoFrame" src="https://player.vimeo.com/video/842937537?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="The Sporting Clays Course at Sandy Creek Sporting Grounds"></iframe>
+							    </div>
+							    <script src="https://player.vimeo.com/api/player.js"></script>
+							    <br>
+							    <p>Winding through scenic ponds, rolling terrain, forested thickets, and a century-old pecan orchard, our sporting clays course presents guests with 20 signature location challenges. Often described as “golf with a shotgun,” sporting clays allow guests to enjoy a broad range of exciting clay movements, each providing distinctive entertainment for shooters of all levels.</p>
 							</article>
+
+							<!-- Your modal implementation goes here -->
+
+							<script>
+							    // Your modal script goes here
+
+							    // Example: Attaching event listener to close button with class "close"
+							    document.addEventListener('DOMContentLoaded', function () {
+							        var closeButton = document.querySelector('.close:before');
+							        var videoFrame = document.getElementById('videoFrame');
+							        
+							        closeButton.addEventListener('click', function () {
+							            var modal = document.getElementById('work');
+							            
+							            // Close the modal
+							            modal.style.display = 'none';
+							            
+							            // Pause the video
+							            var player = new Vimeo.Player(videoFrame);
+							            player.pause();
+							        });
+							    });
+							</script>
+
 
 						<!-- About -->
 							<article id="about">
