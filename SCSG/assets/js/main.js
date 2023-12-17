@@ -253,7 +253,17 @@
 				// Deactivate article.
 					$article.removeClass('active');
 
-					$('iframe').attr('src',$('iframe').attr('src'));
+					// $('iframe').attr('src',$('iframe').attr('src'));
+
+					// $('iframe').each(function() {
+					//     this.contentWindow.location.reload(true);
+					// });
+
+					$('iframe').each(function() {
+    var src = $(this).attr('src');
+    $(this).attr('src', '').attr('src', src);
+});
+
 
 				// Hide article.
 					setTimeout(function() {
