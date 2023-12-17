@@ -121,27 +121,6 @@
 
 							<!-- Your modal implementation goes here -->
 
-							<script>
-							    // Your modal script goes here
-
-							    // Example: Attaching event listener to close button with class "close"
-							    document.addEventListener('DOMContentLoaded', function () {
-							        var closeButton = document.querySelector('.close:before');
-							        var videoFrame = document.getElementById('videoFrame');
-							        
-							        closeButton.addEventListener('click', function () {
-							            var modal = document.getElementById('work');
-							            
-							            // Close the modal
-							            modal.style.display = 'none';
-							            
-							            // Pause the video
-							            var player = new Vimeo.Player(videoFrame);
-							            player.pause();
-							        });
-							    });
-							</script>
-
 
 						<!-- About -->
 							<article id="about">

@@ -253,6 +253,8 @@
 				// Deactivate article.
 					$article.removeClass('active');
 
+					$('iframe').attr('src',$('iframe').attr('src'));
+
 				// Hide article.
 					setTimeout(function() {
 
