@@ -1745,7 +1745,7 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
-		margin-bottom: -80px;
+		margin-bottom: -30px;
 	}
 
 		header.major p {
@@ -2492,6 +2492,28 @@ input, select, textarea {
 			}
 
 /* Main */
+	.main.style {
+		overflow: hidden;
+		padding: 0 !important;
+		text-align: center;
+		background-color: #19181a;
+	}
+
+		.main.style1 > section {
+			border-left: solid 1px #313032;
+			border-top: solid 1px #313032;
+			padding: 5em 3em 3em 3em ;
+			width: 100%;
+		}
+
+			.main.style1 > section:nth-child(-n + 2) {
+				border-top: 0;
+			}
+
+			.main.style1 > section:nth-child(2n + 1) {
+				border-left: 0;
+				clear: both;
+			}
 
 	.main.style1 {
 		overflow: hidden;
@@ -3318,3 +3340,10 @@ input, select, textarea {
 				}
 
 	}
+
+
+			  .centered-image {
+				    display: flex;
+				    margin: 0 auto;
+				    max-width: 100%;
+				  }
