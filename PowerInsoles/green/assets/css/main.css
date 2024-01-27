@@ -2716,6 +2716,7 @@ input, select, textarea {
 
 				#header > nav > ul li {
 					border-left: solid 1px #313032;
+					border-right: solid 1px #313032;
 					display: inline-block;
 					line-height: 3.5em;
 					min-width: 20%;
@@ -2744,9 +2745,9 @@ input, select, textarea {
 							color: #ffffff !important;
 						}
 
-					#header > nav > ul li:first-child {
+					/*#header > nav > ul li:first-child {
 						border-left: 0;
-					}
+					}*/
 
 		#header.alt > header {
 			padding: 5.5em 3em 1.5em 3em;
