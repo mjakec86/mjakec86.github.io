@@ -115,7 +115,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom: dotted 0px;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1745,6 +1745,7 @@ input, select, textarea {
 
 	header.major {
 		text-align: center;
+		margin-bottom: -80px;
 	}
 
 		header.major p {
@@ -2013,7 +2014,7 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
+	/*.image {
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2021,10 +2022,9 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-		}
+		}*/
 
-		.image:before {
-			background: url("images/overlay2.png");
+		/*.image:before {
 			content: '';
 			height: 100%;
 			left: 0;
@@ -2033,29 +2033,29 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			z-index: 1;
-		}
+		}*/
 
-		.image.left {
+		/*.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
-		}
+		}*/
 
-		.image.right {
+		/*.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
-		}
+		}*/
 
-		.image.left, .image.right {
+	/*	.image.left, .image.right {
 			max-width: 40%;
-		}
+		}*/
 
-			.image.left img, .image.right img {
+		/*	.image.left img, .image.right img {
 				width: 100%;
-			}
+			}*/
 
-		.image.fit {
+	/*	.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
@@ -2064,7 +2064,7 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
-
+*/
 /* List */
 
 	ol {
@@ -2497,6 +2497,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 0 !important;
 		text-align: center;
+		background-color: black;
 	}
 
 		.main.style1 > section {
@@ -2518,8 +2519,8 @@ input, select, textarea {
 
 	.main.style2 > section {
 		border-top: solid 1px #313032;
-		height: 17em;
-		margin: 0 0 4em 0;
+		height: 21em;
+/*		margin: 0 0 4em 0;*/
 		padding: 4em 0 0 0;
 		position: relative;
 		width: 100%;
@@ -2527,8 +2528,8 @@ input, select, textarea {
 
 		.main.style2 > section:first-of-type {
 			border-top: 0;
-			height: 13em;
-			padding-top: 0;
+			height: 21em;
+			padding-top: 20;
 		}
 
 		.main.style2 > section:after {
@@ -2547,10 +2548,10 @@ input, select, textarea {
 
 			.main.style2 > section .image img {
 				display: block;
-				min-height: 100%;
-				min-width: 100%;
+				/*min-height: 100%;
+				min-width: 100%;*/
 				position: absolute;
-				width: 100%;
+/*				width: 100%;*/
 			}
 
 		.main.style2 > section:before {
@@ -2563,7 +2564,7 @@ input, select, textarea {
 		.main.style2 > section .content {
 			display: inline-block;
 			padding: 1.5em 3em;
-			vertical-align: middle;
+			vertical-align: top;
 			width: 53%;
 		}
 
@@ -2578,6 +2579,7 @@ input, select, textarea {
 			.main.style2 > section.left .image img {
 				right: 0;
 				top: 0;
+				margin-right: 80px;
 			}
 
 		.main.style2 > section.left .content {
@@ -2629,7 +2631,7 @@ input, select, textarea {
 	}
 
 		#header:before {
-			background: #669161;
+			background: #91E041;
 			content: '';
 			display: block;
 			height: 8em;
@@ -2645,7 +2647,7 @@ input, select, textarea {
 			-webkit-transform: rotate(45deg);
 			-ms-transform: rotate(45deg);
 			transform: rotate(45deg);
-			background: #669161;
+			background: #91E041;
 			content: '';
 			display: block;
 			height: 2.8em;
