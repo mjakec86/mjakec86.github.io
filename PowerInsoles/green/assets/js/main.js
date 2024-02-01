@@ -18,6 +18,13 @@
 
 		};
 
+		function changeText(newText, event) {
+  event.preventDefault();
+  document.getElementById("displayText").innerText = newText;
+}
+
+
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1367px',  '1680px' ],

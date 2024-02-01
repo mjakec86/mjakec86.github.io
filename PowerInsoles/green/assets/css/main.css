@@ -2662,6 +2662,7 @@ input, select, textarea {
 			position: absolute;
 			top: -6em;
 			width: 4em;
+			z-index: 9999;
 		}
 
 		#header:after {
@@ -3348,3 +3349,32 @@ input, select, textarea {
 				    margin: 0 auto;
 				    max-width: 100%;
 				  }
+
+
+	.cardcontainer {display: flex}
+
+
+		#header {
+    position: relative;
+/*    overflow: hidden;*/
+}
+
+.header-video {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px;
+}
+
+.header-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Set the text color */
+    text-align: center; /* Center the text */
+    font-size: 2em; /* Adjust the font size as needed */
+    z-index: 1; /* Ensure the heading is above the video */
+}
+
+/* Add additional styling for the header or other content within the header as needed */
+
