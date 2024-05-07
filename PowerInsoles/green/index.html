@@ -19,14 +19,36 @@
 
 				<!-- Header -->
 					<section id="header">
-						<section id="header" class="header-container" style="margin-bottom: 0px;">
-							<img class="header-heading" src="images/logo2.png" style="width: 60%;"></img>
-						    <video class="header-video" autoplay loop muted playsinline style="width: 100%; max-width: 100%; height: auto; margin-bottom: -9px;">
-						        <source src="images/Banner.mp4" type="video/mp4">
-						        Your browser does not support the video tag.
-						    </video>
-						    <!-- Add other content within the header here -->
-						</section>
+						<<section id="header" class="header-container" style="margin-bottom: 0px;">
+    <img class="header-heading" src="images/logo2.png" style="width: 60%;">
+    <video class="header-video" autoplay loop muted playsinline style="width: 100%; max-width: 100%; height: auto; margin-bottom: -9px;">
+        <source src="images/Banner.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <img class="header-image" src="images/carbon.jpg" style="width: 100%; max-width: 100%; height: auto; filter: blur(2px);">
+    <!-- Add other content within the header here -->
+</section>
+
+<style>
+    @media only screen and (max-width: 600px) {
+        .header-video {
+            display: none;
+        }
+        .header-image {
+            display: block;
+        }
+    }
+    @media only screen and (min-width: 600px) {
+        .header-video {
+            display: block;
+        }
+        .header-image {
+            display: none;
+        }
+    }
+</style>
+
+
 
 						<nav id="nav" style="margin-top: 0px;">
 							<ul>
@@ -38,10 +60,7 @@
 					<section class="main" style="background: #686868; border: none; background-image: url('images/greenbg.png');>
 						<header class="major">
 						</header>
-						<div class="card text-center" style="border: none;">
-						  <div class="card-header" style="background: #3F3F3F;">
-						    <h1>INSOLES</h1>
-						  </div>
+						<div class="card text-center" style="border: solid; border-color: black; opacity: .5; box-shadow: 5px 5px 5px #000000;">
 						  <div class="card-body" style="background: black;">
 						    <h5 class="card-title">OUTLAST AND OUTPERFORM THE COMPETITION</h5>
 						    <p class="card-text">TAG LINE</p>
